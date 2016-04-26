@@ -1,0 +1,273 @@
+html,body {
+    background-color: #f4eee6;
+    color: #440e62;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 100%;
+   font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    
+}
+.header {
+    display: block;
+    background: -webkit-linear-gradient(18deg, rgba(68,14,98,.3), rgba(255,255,255,0)), url(../img/nuha.jpg) no-repeat center center fixed;
+	background: -moz-linear-gradient(18deg, rgba(68,14,98,.3), rgba(255,255,255,0)), url(../img/nuha.jpg) no-repeat center center fixed;
+	background: -o-linear-gradient(18deg, rgba(68,14,98,.3), rgba(255,255,255,0)), url(../img/nuha.jpg) no-repeat center center fixed;
+	background: -ms-linear-gradient(18deg, rgba(68,14,98,.3), rgba(255,255,255,0)),url(../img/nuha.jpg) no-repeat center center fixed;
+	background:linear-gradient(18deg, rgba(68,14,98,.3), rgba(255,255,255,0)),url(../img/nuha.jpg) no-repeat center center fixed;
+    background:linear-gradient(18deg,rgba(68,14,98,.3), rgba(255,255,255,0)), url(../img/nuha.jpg) no-repeat center center fixed;
+     max-width: 100%;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover,cover;
+   
+}
+.drop {
+    border-radius: 0px;
+    background-color: #440e62;
+    color: white;
+}
+.drop:hover {
+      background: #294706;
+    color: white;
+     -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    transition:all .3s ease-in-out
+}
+.dropdown-menu {
+    min-width: 0px;
+    text-align: center;
+    padding: 5px 2px;
+    background-color: floralwhite;
+    color: #440e62;
+    border-radius: 0px;
+}
+
+.overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+}
+.wrapper {
+    max-width: 940px;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding-top: 1.5%;
+}
+.top {
+    float: right;
+}
+#avatar {
+    max-width: 100%;
+    height: auto;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+	background-color: #440e62;
+    margin: 0 auto;
+}
+.wrapper h1 {
+    padding-bottom: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+    
+}
+.lead {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #2a2a2a;
+        line-height: 50px;
+}
+#subheading {
+    padding-top: 2px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #294706;
+    letter-spacing: 1.5px;
+    
+}
+.form-control {
+    height: 40px;
+    background-color: rgb(206, 234, 174);
+    border: 1px solid rgb(206, 234, 174);
+    border-radius: 0px;
+    color: #000;
+   
+}
+input::-webkit-input-placeholder {
+color: black !important;
+    opacity: 0.5;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+    color: black !important;
+    opacity: 0.5; 
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: black !important;
+    opacity: 0.5; 
+}
+ 
+input:-ms-input-placeholder {  
+    color: black !important;
+    opacity: 0.5;
+}
+
+input[type=email]:focus {
+    box-shadow: 0 0 5px #4D1061;
+    border: 1px solid #4D1061;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.email-btn {
+    border-radius: 0;
+    border-color: #440e62; 
+    background: #440e62;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    height: 40px;  
+}
+.email-btn:hover {
+     background: #294706;
+    border-color: #294706;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    transition:all .3s ease-in-out;
+}
+.social {
+    width: 100%;
+    padding-top:40px;
+    text-align: center;
+}
+.social ul li {
+    display: inline-block;
+    text-align: center;
+    line-height:2.5em;
+    width: 2.5em;
+    height: 2.5em;
+    -webkit-border-radius: 50%; 
+    -moz-border-radius: 50%; 
+    border-radius: 50%; 
+    background-color: #440e62;
+    margin: 0 2px;
+    
+}
+.fa {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.hvr:hover {
+    background: #294706;
+     -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    transition:all .3s ease-in-out
+}
+
+#footer-section {
+    margin: 3% auto 0 auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+/*
+==============================================
+fadeIn
+==============================================
+*/
+
+
+.fadeIn{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		transform: scale(1.1);	
+	}
+	80% {
+		transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		-webkit-transform: scale(1.1);
+	}
+	80% {
+		-webkit-transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+
+@media screen and (min-width: 480px) {
+    .wrapper h1 {
+       font-size: 2.7777777777777777em;
+    }
+    .lead {
+       font-size:1.9444444444444444em;
+    }
+    #subheading {
+        font-size:15px;
+    }
+}
